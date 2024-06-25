@@ -10,7 +10,6 @@ function determinarRank(resultado) {
     if (resultado >= 81 && resultado <= 90) return "Diamante";
     if (resultado >= 91 && resultado <= 100) return "Lendário";
     if (resultado >= 101) return "Imortal";
-    return "Rank desconhecido";
 }
 
 let resultado = subtrair(25, 35);
