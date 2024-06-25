@@ -17,8 +17,6 @@ function determinarRank(resultado) {
         return "Lendário";
     } else if (resultado >= 101) {
         return "Imortal";
-    } else {
-        return "Rank desconhecido";
     }
 }
 
