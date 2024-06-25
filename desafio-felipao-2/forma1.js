@@ -3,37 +3,37 @@ function subtrair(vitoria, derrota) {
 }
   
 let resultado = subtrair(25, 35);
-let rank ;
+let determinarRank ;
 
 switch (true) {
     case resultado <= 10:
-        rank = "Ferro";
+        determinarRank = "Ferro";
         break;
         
     case resultado >= 11 && resultado <= 20:
-        rank = "Bronze";
+        determinarRank = "Bronze";
         break;
 
     case resultado >= 21 && resultado <= 50:
-        rank = "Prata";
+        determinarRank = "Prata";
         break;
 
     case resultado >= 51 && resultado <= 80:
-        rank = "Ouro";
+        determinarRank = "Ouro";
         break;
 
     case resultado >= 81 && resultado <= 90:
-        rank= "Diamante";
+        determinarRank= "Diamante";
         break;
 
     case resultado >= 91 && resultado <= 100:
-        rank = "Lendário";
+        determinarRank = "Lendário";
         break;    
 
     case resultado >= 101:
-        rank = "Imortal";
+        determinarRank = "Imortal";
         
 }
 
-console.log ("O Herói tem de saldo de " + resultado + " e está no nível de rank: " + rank);
+console.log ("O Herói tem de saldo de " + resultado + " e está no nível de rank: " + determinarRank);
 
