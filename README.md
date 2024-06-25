@@ -1,4 +1,4 @@
 Desafio DIO
 
-Formação Lógica de Programação
+Formação Lógica de Programação - 
 Calculadora de Partidas Rankeadas
